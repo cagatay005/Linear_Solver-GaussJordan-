@@ -1,5 +1,7 @@
 # Gauss-Jordan Doğrusal Denklem Çözücü
 
+*Diğer diller: [English](README.en.md)*
+
 Saf C (C11) ile yazılmış, harici kütüphane kullanmayan, eğitim amaçlı bir
 doğrusal denklem sistemi çözücüsü. Kullanıcının girdiği sistemi
 Gauss-Jordan eliminasyonu (partial pivoting ile) kullanarak indirgenmiş
@@ -64,8 +66,10 @@ linear_solver/
 |-- src/            Kaynak dosyalari (main.c, matrix.c, ...)
 |-- tests/          Test sistemleri (.txt)
 |-- examples/       Ornek sistemler
+|-- docs/           Ekran goruntuleri (README icin)
 |-- Makefile
-`-- README.md
+|-- README.md
+`-- README.en.md
 ```
 
 Modüller:
@@ -161,6 +165,20 @@ Sabit terim: 8
 Seciminiz: 2
 Dosya adi: tests/test_unique.txt
 ```
+
+## Ekran Görüntüleri
+
+**Ayrıntılı mod — tek çözümlü sistem, satır değiştirme dahil (`tests/test_row_swap.txt`)**
+
+![Ayrıntılı mod ekran görüntüsü](docs/screenshot_unique_verbose.png)
+
+**Yalnızca-sonuç modu — sonsuz çözümlü sistem, parametrik çözüm (`tests/test_infinite.txt`)**
+
+![Sonsuz çözüm ekran görüntüsü](docs/screenshot_infinite.png)
+
+**Yalnızca-sonuç modu — çözümsüz (tutarsız) sistem (`tests/test_inconsistent.txt`)**
+
+![Çözümsüz sistem ekran görüntüsü](docs/screenshot_inconsistent.png)
 
 ## Dosya Giriş Formatı
 
