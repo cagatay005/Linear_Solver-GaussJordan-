@@ -1,0 +1,34 @@
+# Derleme çiktilari
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.dll
+*.pdb
+*.ilk
+solver
+solver.exe
+solver_asan.exe
+solver_ubsan.exe
+
+# Program calisirken uretilen rapor dosyalari
+solution_report.txt
+*.report.txt
+
+# Derleyici/IDE ureten ek dosyalar
+*.stackdump
+*.dSYM/
+
+# Editor / IDE ayarlari
+.vscode/
+.vs/
+.idea/
+*.swp
+*.swo
+
+# Isletim sistemi dosyalari
+Thumbs.db
+desktop.ini
+.DS_Store
